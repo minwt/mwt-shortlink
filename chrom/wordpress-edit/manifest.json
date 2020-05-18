@@ -1,0 +1,15 @@
+{
+"manifest_version": 2,
+"name": "wordpress editor",
+"description": "WordPress進入文章編輯模式",
+"version": "1.0",
+"permissions": [],
+"content_scripts": [ {
+   "js": [ "jquery.min.js","getcode.js" ],
+  "matches": [ "http://*/*", "https://*/*" ]
+}],
+"browser_action":
+	{
+	"default_icon": "icon.png"
+	}
+}
